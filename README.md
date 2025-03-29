@@ -54,6 +54,7 @@ python EDA.py
 The feature engineering script includes:
 - **Handling Missing Values:** Imputation strategies.
 - **Encoding Categorical Variables:** One-hot encoding, label encoding.
+- **Scaling and Normalization:** StandardScaler, MinMaxScaler.
 - **Feature Selection:** Correlation-based selection, feature importance.
 
 ### To run Feature Engineering:
@@ -74,13 +75,13 @@ python Model_Training.py
 - **Mean Squared Error (MSE):**  
 - **Root Mean Squared Error (RMSE):**  
 - **R-squared (R2):**  
- 
 
 ## 📤 Exported Model
 The final ElasticNet model is saved as a `.pkl` file:
 ```bash
 Saved_Models/elasticnet.pkl
+```
 
-💬 Suggestions & Interaction
-
+## 💬 Suggestions & Interaction
 Suggestions, contributions, and advice are highly encouraged! I am willing to interact and collaborate with anyone interested in improving this project.
+
