@@ -63,7 +63,7 @@ python Feature_Engineering.py
 ```
 
 ## 🚀 Model Training
-The model training script uses **ElasticNet Regression** with hyperparameter tuning via **GridSearchCV**. It evaluates performance using metrics like MAE, MSE, RMSE, and R².
+We experimented with multiple models including Random Forest, XGBoost, and finally ElasticNet Regression, with hyperparameter tuning via GridSearchCV. The models were evaluated using metrics such as MAE, MSE, RMSE, and R². ElasticNet provided the best balance between performance and interpretability.
 
 ### To run Model Training:
 ```bash
